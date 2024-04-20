@@ -10,6 +10,6 @@ public class ForceConvert {
 
     	int n2 = 2000;
     	byte b1 = (byte)n2;
-    	System.out.print("b1=" + b1);//造成 数据溢出
+    	System.out.println("b1=" + b1);//造成 数据溢出
     }
 }

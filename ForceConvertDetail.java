@@ -1,21 +1,21 @@
 
 public class ForceConvertDetail {
 
-    //ç¼–å†™ä¸€ä¸ªmainæ–¹æ³•
+    //±àÐ´Ò»¸ömain·½·¨
     public static void main(String[] args) {
 
-    	//æ¼”ç¤ºå¼ºåˆ¶ç±»åž‹è½¬æ¢
-    	//å¼ºè½¬ç¬¦å·åªé’ˆå¯¹äºŽæœ€è¿‘çš„æ“ä½œæ•°æœ‰æ•ˆï¼Œå¾€å¾€ä¼šä½¿ç”¨å°æ‹¬å·æå‡ä¼˜å…ˆçº§
-    	//int x = (int)10*3.5+6*1.5;//ç¼–è¯‘é”™è¯¯ï¼šdouble -> int
+    	//ÑÝÊ¾Ç¿ÖÆÀàÐÍ×ª»»
+    	//Ç¿×ª·ûºÅÖ»Õë¶ÔÓÚ×î½üµÄ²Ù×÷ÊýÓÐÐ§£¬ÍùÍù»áÊ¹ÓÃÐ¡À¨ºÅÌáÉýÓÅÏÈ¼¶
+    	//int x = (int)10*3.5+6*1.5;//±àÒë´íÎó£ºdouble -> int
     	int x = (int)(10*3.5+6*1.5);// (int)44.0 -> 44
-    	System.out.print(x);//44
+    	System.out.println(x);//44
 
 
     	char c1 = 100; //ok
     	int m = 100; //ok
-    	//char c2 = m; //é”™è¯¯
+    	//char c2 = m; //´íÎó
     	char c3 = (char)m; //ok
-    	System.out.print(c3);//100å¯¹åº”çš„å­—ç¬¦ï¼Œdå­—ç¬¦
+    	System.out.println(c3);//100¶ÔÓ¦µÄ×Ö·û£¬d×Ö·û
 
 
     }

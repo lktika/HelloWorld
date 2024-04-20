@@ -1,28 +1,28 @@
 
 public class CharDetail {
 
-    //ç¼–å†™ä¸€ä¸ªmainæ–¹æ³•
+    //±àÐ´Ò»¸ömain·½·¨
     public static void main(String[] args) {
 
-    	//åœ¨javaä¸­ï¼Œcharçš„æœ¬è´¨æ˜¯ä¸€ä¸ªæ•´æ•°ï¼Œåœ¨è¾“å‡ºæ—¶ï¼Œæ˜¯unicodeç å¯¹åº”çš„å­—ç¬¦
-    	//è¦è¾“å‡ºå¯¹åº”çš„æ•°å­—ï¼Œå¯ä»¥(int)å­—ç¬¦
+    	//ÔÚjavaÖÐ£¬charµÄ±¾ÖÊÊÇÒ»¸öÕûÊý£¬ÔÚÊä³öÊ±£¬ÊÇunicodeÂë¶ÔÓ¦µÄ×Ö·û
+    	//ÒªÊä³ö¶ÔÓ¦µÄÊý×Ö£¬¿ÉÒÔ(int)×Ö·û
     	char c1 = 97;
     	System.out.println(c1); // a
 
-    	char c2 = 'a'; //è¾“å‡º'a'å¯¹åº”çš„ æ•°å­—
+    	char c2 = 'a'; //Êä³ö'a'¶ÔÓ¦µÄ Êý×Ö
     	System.out.println((int)c2);
-		char c3 = 'éŸ©';
+		char c3 = 'º«';
 		System.out.println((int)c3);//38889
 		char c4 = 38889;
-		System.out.print(c4);//éŸ©
+		System.out.println(c4);//º«
 
-		//charç±»åž‹æ˜¯å¯ä»¥è¿›è¡Œè¿ç®—çš„ï¼Œç›¸å½“äºŽä¸€ä¸ªæ•´æ•°ï¼Œå› ä¸ºå®ƒéƒ½å¯¹åº”æœ‰Unicodeç .
+		//charÀàÐÍÊÇ¿ÉÒÔ½øÐÐÔËËãµÄ£¬Ïàµ±ÓÚÒ»¸öÕûÊý£¬ÒòÎªËü¶¼¶ÔÓ¦ÓÐUnicodeÂë.
 		
-		System.out.print('a' + 10);//107
+		System.out.println('a' + 10);//107
 
-		//è¯¾å ‚å°æµ‹è¯•
+		//¿ÎÌÃÐ¡²âÊÔ
 		char c5 = 'b' + 1;//98+1==> 99
-		System.out.print((int)c5); //99
-		System.out.print(c5); //99->å¯¹åº”çš„å­—ç¬¦->ç¼–ç è¡¨ASCII(è§„å®šå¥½çš„)=>c
+		System.out.println((int)c5); //99
+		System.out.println(c5); //99->¶ÔÓ¦µÄ×Ö·û->±àÂë±íASCII(¹æ¶¨ºÃµÄ)=>c
     }
 }

@@ -1,15 +1,15 @@
 
 public class Boolean01 {
 
-    //ç¼–å†™ä¸€ä¸ªmainæ–¹æ³•
+    //±àĞ´Ò»¸ömain·½·¨
     public static void main(String[] args) {
-    	//æ¼”ç¤ºåˆ¤æ–­æˆç»©æ˜¯å¦é€šè¿‡çš„æ¡ˆä¾‹
-    	//å®šä¹‰ä¸€ä¸ªå¸ƒå°”å˜é‡
+    	//ÑİÊ¾ÅĞ¶Ï³É¼¨ÊÇ·ñÍ¨¹ıµÄ°¸Àı
+    	//¶¨ÒåÒ»¸ö²¼¶û±äÁ¿
     	boolean isPass = false;//
     	if(isPass == true) {
-    		System.out.print("è€ƒè¯•é€šè¿‡ï¼Œæ­å–œ");
+    		System.out.println("¿¼ÊÔÍ¨¹ı£¬¹§Ï²");
 		} else {
-			System.out.print("è€ƒè¯•æ²¡æœ‰é€šè¿‡ï¼Œä¸‹æ¬¡åŠªåŠ›");
+			System.out.println("¿¼ÊÔÃ»ÓĞÍ¨¹ı£¬ÏÂ´ÎÅ¬Á¦");
 		}
     }
 }
